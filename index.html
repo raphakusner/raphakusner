@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stitch
+
+    </title>potifolio do stitch
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio do Stitch</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/stitch-avatar.png" alt="Avatar do Stitch" class="rounded-circle" width="150" height="150">
+        <p class="lead">Aloha! Eu sou o Stitch</p>
+        <h1>Experiência 626</h1>
+        <p>Sou um experimento alienígena criado para causar o caos, mas encontrei uma nova família na Terra. Agora, minha missão é proteger quem eu amo.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-primary">Super força</p>
+            <p class="badge bg-primary">Velocidade</p>
+            <p class="badge bg-primary">Tecnologia alienígena</p>
+            <p class="badge bg-primary">Lealdade</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Minhas aventuras</h2>
+        <div class="row">
+            <!-- Aventura 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/stitch-hawaii.png" class="card-img-top" alt="Stitch curtindo o Havaí">
+                    <div class="card-body">
+                        <h5 class="card-title">Defendendo o Havaí</h5>
+                        <p class="card-text">Uma invasão alienígena tentou acabar com o paraíso, mas Stitch entrou em ação!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Ver missão</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Aventura 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/stitch-nani.png" class="card-img-top" alt="Stitch ajudando Nani">
+                    <div class="card-body">
+                        <h5 class="card-title">Protegendo Nani e Lilo</h5>
+                        <p class="card-text">Quando as coisas ficaram difíceis, Stitch mostrou o verdadeiro significado de ‘ohana’.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Ver missão</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Aventura 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/stitch-nave.png" class="card-img-top" alt="Stitch pilotando uma nave">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida Espacial</h5>
+                        <p class="card-text">Um duelo nas estrelas para salvar seus amigos capturados por Gantu!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Ver missão</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-primary text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Defendendo o Havaí</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>“Ohana quer dizer família. Família quer dizer nunca abandonar ou esquecer.”</p>
+                    <img src="img/stitch-hawaii.png" class="img-fluid w-100" alt="Stitch no Havaí">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://example.com/havai" class="text-white">Ver missão completa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-primary text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Protegendo Nani e Lilo</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Quando a família está em perigo, Stitch se transforma em um verdadeiro herói!</p>
+                    <img src="img/stitch-nani.png" class="img-fluid w-100" alt="Stitch com Lilo e Nani">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://example.com/familia" class="text-white">Ver missão completa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-primary text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida Espacial</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Piloto experiente e maluco por adrenalina, Stitch enfrenta Gantu em uma perseguição intergaláctica!</p>
+                    <img src="img/stitch-nave.png" class="img-fluid w-100" alt="Stitch pilotando uma nave">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://example.com/nave" class="text-white">Ver missão completa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container text-center mt-5 mb-4 text-muted">
+        <p>&copy; 2025 Stitch Ohana Corp - Desenvolvido com amor e bagunça.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
